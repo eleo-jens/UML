@@ -1,0 +1,40 @@
+<mxfile host="65bd71144e">
+    <diagram id="7F7kjqNODgKZhGaX__OL" name="Page-1">
+        <mxGraphModel dx="785" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="9" value="" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="2" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="270" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;br&gt;UC01 -&amp;nbsp; passer des commandes" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="270" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;br&gt;UC02 - Vérifier la disponibilité des articles&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="490" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8" target="10">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="360" y="340" as="sourcePoint"/>
+                        <mxPoint x="520" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="&lt;h1&gt;Cas isolés: exo 1&amp;nbsp;&lt;/h1&gt;&lt;span style=&quot;color: rgb(201 , 209 , 217) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; ; font-size: 16px ; background-color: rgb(13 , 17 , 23)&quot;&gt;&amp;nbsp;Une personne au charge des commandes d'un magasin passe les commandes du système de vente par correspondance. Il doit, pour chaque commande, vérifier la disponibilité des articles commandés et la solvabilité du client. Modélisez cette situation.&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="40" width="690" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;br&gt;&lt;br&gt;UC03 - Vérifier la solvabilité des clients&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="190" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;entryX=0.015;entryY=0.366;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.677;exitY=0.003;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8" target="19">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="380" y="240" as="sourcePoint"/>
+                        <mxPoint x="540" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

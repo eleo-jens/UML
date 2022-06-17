@@ -1,0 +1,139 @@
+<mxfile host="65bd71144e">
+    <diagram id="i9mRlRn2IJmVlM-Jh5ST" name="Page-1">
+        <mxGraphModel dx="1108" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;h1&gt;Cas isolés: exo 3&amp;nbsp;&lt;/h1&gt;&lt;p dir=&quot;auto&quot; style=&quot;box-sizing: border-box ; margin-top: 0px ; margin-bottom: 16px ; color: rgb(201 , 209 , 217) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; ; font-size: 16px ; background-color: rgb(13 , 17 , 23)&quot;&gt;Modélisez le retrait, consultation et dépôt d'argent d'un distributeur (GAB).&lt;/p&gt;&lt;p dir=&quot;auto&quot; style=&quot;box-sizing: border-box ; margin-top: 0px ; margin-bottom: 16px ; color: rgb(201 , 209 , 217) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; ; font-size: 16px ; background-color: rgb(13 , 17 , 23)&quot;&gt;Créez de nouveaux diagrammes (ou modifiez le diagramme existant) pour représenter chacune de ces situations.&lt;/p&gt;&lt;ul dir=&quot;auto&quot; style=&quot;box-sizing: border-box ; padding-left: 2em ; margin-top: 0px ; margin-bottom: 16px ; color: rgb(201 , 209 , 217) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; ; font-size: 16px ; background-color: rgb(13 , 17 , 23)&quot;&gt;&lt;li style=&quot;box-sizing: border-box&quot;&gt;&lt;span style=&quot;box-sizing: border-box ; font-weight: 600&quot;&gt;3.1.&lt;/span&gt;&amp;nbsp;Inclure l'authentification du client dans le diagramme précédant&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-top: 0.25em&quot;&gt;&lt;span style=&quot;box-sizing: border-box ; font-weight: 600&quot;&gt;3.2.&lt;/span&gt;&amp;nbsp;Considérez que le GAB offre au client l'option de consulter son solde juste après avoir réalisé la retraite d'argent&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-top: 0.25em&quot;&gt;&lt;span style=&quot;box-sizing: border-box ; font-weight: 600&quot;&gt;3.3.&lt;/span&gt;&amp;nbsp;Considérez que les clients qui ne portent pas une carte de notre banque peuvent uniquement retirer de l'argent du distributeur&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-top: 0.25em&quot;&gt;&lt;span style=&quot;box-sizing: border-box ; font-weight: 600&quot;&gt;3.4.&lt;/span&gt;&amp;nbsp;Rajouter un opérateur de la banque. Il doit pouvoir recharger le GAB de billets, récupérer les cartes avalées et récupérer les chèques&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="40" width="690" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Client Lambda" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="460" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="4" target="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="80" y="520" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="&lt;br&gt;Retirer de l'argent" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="460" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="80" y="750" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="&lt;br&gt;Consulter son solde" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="590" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="80" y="760" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="&lt;br&gt;Faire un dépot" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="730" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="6" target="4">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="400" y="600" as="sourcePoint"/>
+                        <mxPoint x="560" y="600" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="290" y="560"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" edge="1" parent="1" target="36">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="870" y="640" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="Opérateur" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="620" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=block;endFill=0;" edge="1" parent="1" source="26">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="55" y="550" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="Client de la&amp;nbsp;&lt;br&gt;Banque" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="700" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&lt;br&gt;Authentification&lt;br&gt;du client" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="590" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6" target="27">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="290" y="660" as="sourcePoint"/>
+                        <mxPoint x="450" y="660" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7" target="27">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="360" y="630" as="sourcePoint"/>
+                        <mxPoint x="460" y="660" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="27">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="350" y="495" as="sourcePoint"/>
+                        <mxPoint x="450" y="525" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="&lt;br&gt;Recharger le distributeur" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="480" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="38">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="870" y="670" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="&lt;br&gt;Récupérer les chèques&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="760" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="39">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="870" y="650" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="&lt;br&gt;Récupérer&amp;nbsp; les cartes avalées" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="620" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.987;entryY=0.627;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;" edge="1" parent="1" source="43" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="&lt;br&gt;Déposer argent" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="720" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.957;entryY=0.745;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;" edge="1" parent="1" source="44" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&lt;br&gt;Déposer chèque&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="830" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="" style="fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="520" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="Condition" style="html=1;align=left;spacingLeft=4;verticalAlign=middle;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="52">
+                    <mxGeometry width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="" style="shape=ellipse;" vertex="1" parent="53">
+                    <mxGeometry x="1" width="20" height="16" relative="1" as="geometry">
+                        <mxPoint x="-25" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="52">
+                    <mxGeometry y="30" width="100" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="Si le client&amp;nbsp;&lt;br&gt;appartient&amp;nbsp;&lt;br&gt;à la banque" style="html=1;align=center;spacingLeft=4;verticalAlign=top;strokeColor=none;fillColor=none;" vertex="1" parent="52">
+                    <mxGeometry y="38" width="100" height="62" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="56">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="290" y="560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
